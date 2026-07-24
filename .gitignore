@@ -1,0 +1,43 @@
+# -------------------------
+# Python
+# -------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+
+# -------------------------
+# YOLO model weights
+# -------------------------
+*.pt
+
+# -------------------------
+# Datasets (don't upload)
+# -------------------------
+data/images/
+data/videos/
+data/processed_video/
+data/extracted_frames/
+
+# -------------------------
+# Outputs
+# -------------------------
+outputs/
+runs/
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Operating System
+# -------------------------
+.DS_Store
+Thumbs.db
