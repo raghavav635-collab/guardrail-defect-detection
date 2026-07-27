@@ -4,8 +4,7 @@ from pathlib import Path
 from src.video.pipeline import process_video
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
